@@ -24,11 +24,4 @@ public class Garden {
         }
         waterPerPlant = amountOfWater/plantsToWater;
     }
-
-    @Override
-    public String toString() {
-        return "Garden{" +
-                "garden=" + garden +
-                '}';
-    }
 }

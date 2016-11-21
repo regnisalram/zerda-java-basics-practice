@@ -19,4 +19,9 @@ public abstract class Plant {
         } else
 
     }
+
+    @Override
+    public String toString() {
+        return ;
+    }
 }
