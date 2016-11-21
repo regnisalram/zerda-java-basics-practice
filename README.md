@@ -87,7 +87,7 @@ class Blackberry extends Apple {
 class Main {
   public static void main(String... args) {
     Blackberry b = new Blackberry();
-    System.out.println(Blackberry.getNumber());
+    System.out.println(b.getNumber());
   }
 }
 ```
@@ -98,16 +98,24 @@ Blackberry is created
 4
 ```
 
+```
+Apple is created
+Blackberry is created
+```
+
 #### Explain what you did, and answer the questions here:
+but it wouldn't run since `getNumber()` can't be called on a class, just on an instance of class: `b.getNumber()` would be correct.
 
 
 ## 4. Question time! (~20 mins) [6p]
 
 ### Whats the difference between a Class and an Object? [2p]
 #### Your answer:
+An Object is an instance of a Class. A Class is a general concept, an Object has every needed parameter of its Class defined.
 
 ### What is the superclass when a class doesnt extend anything? What methods will it inherit (the two most important is enough)? [2p]
 #### Your answer:
+When there's no defined superclass, a class extends the Object class. It'll inherit `toString()`
 
 ### What is polymorphism? [2p]
 #### Your answer:
