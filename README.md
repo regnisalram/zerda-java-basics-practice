@@ -115,7 +115,6 @@ An Object is an instance of a Class. A Class is a general concept, an Object has
 
 ### What is the superclass when a class doesnt extend anything? What methods will it inherit (the two most important is enough)? [2p]
 #### Your answer:
-When there's no defined superclass, a class extends the Object class. It'll inherit `toString()`
-
+When there's no defined superclass, a class extends the Object class. It'll inherit for example `toString()` and `getClass()`.
 ### What is polymorphism? [2p]
 #### Your answer:
