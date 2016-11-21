@@ -118,3 +118,4 @@ An Object is an instance of a Class. A Class is a general concept, an Object has
 When there's no defined superclass, a class extends the Object class. It'll inherit for example `toString()` and `getClass()`.
 ### What is polymorphism? [2p]
 #### Your answer:
+It means that an Object can take up and call their parent class' behaviors and functionalities while also define their own.
